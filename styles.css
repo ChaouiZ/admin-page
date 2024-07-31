@@ -125,7 +125,8 @@ body {
 }
 
 .project {
-  width: min(425px, 90%);
+  width: clamp(250px, 425px, 90%);
+  height: clamp(150px, 250px, 100%);
 }
 
 .announcements,
@@ -166,4 +167,7 @@ body {
 .project .tile-text {
   margin: 0;
   padding-top: 0.5rem;
+  font-size: clamp(50%, 80%, 100%);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
