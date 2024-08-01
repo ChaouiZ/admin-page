@@ -196,4 +196,9 @@ body {
 
 img {
   height: 3vh;
+  transition: 0.2s;
+}
+
+img:hover {
+  height: 3.25vh;
 }
