@@ -158,6 +158,7 @@ body {
 .project .tile-content-right .text-area {
   margin: 0;
   padding: 1rem 0.5rem 0 0.5rem;
+  height: 55%;
 }
 
 .project .title {
@@ -168,9 +169,31 @@ body {
 .project .tile-text {
   margin: 0;
   padding-top: 0.5rem;
-  font-size: 0.9vw;
+  font-size: 0.95vw;
   line-height: 1.1rem;
   color: grey;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.logos {
+  height: 35%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logos-bar {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-around;
+  padding-bottom: 0.85rem;
+  padding-right: 0.5rem;
+}
+
+img {
+  height: 3vh;
 }
