@@ -227,8 +227,13 @@ li div {
   transition: 0.5s;
 }
 
+li a {
+  text-decoration: none;
+  color: white;
+}
+
 li div:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   background-color: rgb(227, 233, 240);
   color: slategray;
 }
@@ -263,7 +268,7 @@ svg {
 }
 
 .logos-bar a:hover {
-  background-color: rgb(24, 147, 212);
+  background: rgb(24, 147, 212);
 }
 
 .logos-bar a:hover svg {
