@@ -146,7 +146,7 @@ body {
 .tile-content-left {
   grid-column: 1/2;
   grid-row: 1;
-  background-color: orange;
+  background-color: #f0b429;
   border-radius: 10px 0 0 10px;
 }
 
@@ -235,11 +235,11 @@ li a {
 li div:hover {
   /* cursor: pointer; */
   background-color: rgb(227, 233, 240);
-  color: slategray;
+  color: rgb(93, 105, 117);
 }
 
 li div:hover svg {
-  fill: slategray;
+  fill: #f0b429;
 }
 
 svg {
