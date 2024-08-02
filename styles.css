@@ -210,3 +210,21 @@ img:active {
 .sidebar-header {
   height: 10vh;
 }
+
+ul {
+  list-style: none;
+  color: white;
+  padding: 0;
+  margin-bottom: 5dvh;
+}
+
+li div {
+  height: 5dvh;
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+}
+
+svg {
+  height: 3dvh;
+}
