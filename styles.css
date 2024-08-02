@@ -206,3 +206,7 @@ img:hover {
 img:active {
   height: 3.4vh;
 }
+
+.sidebar-header {
+  height: 10vh;
+}
