@@ -221,10 +221,25 @@ ul {
 li div {
   height: 5dvh;
   display: flex;
-  font-size: x-large;
+  font-size: 3dvh;
   align-items: center;
+  transition: 0.5s;
+}
+
+li div:hover {
+  cursor: pointer;
+  background-color: rgb(227, 233, 240);
+  color: slategray;
+}
+
+li div:hover svg {
+  fill: slategray;
 }
 
 svg {
   height: 3dvh;
+  padding-left: 0.75dvw;
+  padding-right: 0.5dvw;
+  transition: 0.5s;
+  fill: white;
 }
