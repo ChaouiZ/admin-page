@@ -14,8 +14,8 @@ body {
   height: 100vh;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: minmax(250px, 16vw) 84vw;
-  grid-template-rows: minmax(150px, 15vh) calc(85vh - 2rem);
+  grid-template-columns: minmax(175px, 16vw) minmax(750px, 84vw);
+  grid-template-rows: minmax(150px, 15vh) minmax(494px, calc(85vh - 2rem));
   row-gap: 2rem;
 }
 
@@ -210,6 +210,14 @@ img:active {
 
 .sidebar-header {
   height: 10vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 3.5vh;
+}
+
+.sidebar-header svg {
+    height: 5vh;
 }
 
 ul {
@@ -231,7 +239,7 @@ li a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 200;
 }
 
 li div:hover {
@@ -254,7 +262,7 @@ svg {
 
 li div svg {
   padding-right: 2dvw;
-  padding-left: 1.5dvw;
+  padding-left: 1dvw;
 }
 
 .logos-bar svg {
@@ -281,3 +289,5 @@ li div svg {
 .logos-bar a:hover svg {
   fill: white;
 }
+
+
